@@ -11,14 +11,14 @@ gulp.task("compile_pug", function(){
 	gulp.src("pug_files/index.pug")
 		.pipe(plumber())
 		.pipe(pug())
-		.pipe(gulp.dest("index.pug"));
+		.pipe(gulp.dest(""));
 });
 
 gulp.task("compile_sass", function(){
 	gulp.src("sass_files/general_styling.sass")
 		.pipe(plumber())
 		.pipe(sass())
-		.pipe(gulp.dest("css_files/general_styling.css"));
+		.pipe(gulp.dest("css_files/"));
 });
 
 gulp.task("default", ["start"], function(){
