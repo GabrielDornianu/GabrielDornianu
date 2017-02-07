@@ -2,8 +2,23 @@
   margin: 0;
   padding: 0; }
 
-body {
+.page_background {
+  position: absolute;
+  width: 100%;
+  filter: grayscale(50%); }
+
+.content {
+  position: absolute;
+  width: 100%;
   font-family: Helvetica;
   color: white;
   display: flex;
-  background-color: #195B6E; }
+  justify-content: center;
+  background-color: rgba(25, 91, 110, 0.5); }
+  .content .introduction {
+    display: flex;
+    justify-content: center;
+    flex-direction: column; }
+  .content .contact {
+    background-color: black;
+    color: gray; }

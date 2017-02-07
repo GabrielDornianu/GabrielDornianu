@@ -1,13 +1,31 @@
 //
 	Color variables
-$default_background: #195B6E;
+$default_background: rgba(25, 91, 110, 0.5);
 
 *
 	margin: 0
 	padding: 0
 
-body
+.page_background
+	position: absolute
+	width: 100%
+	filter: grayscale(50%)
+
+.content
+	position: absolute
+	width: 100%
 	font-family: Helvetica
 	color: white
 	display: flex
+	justify-content: center
 	background-color:  $default_background;
+
+	.introduction
+		display: flex
+		justify-content: center
+		flex-direction: column
+	.skills
+	.projects	
+	.contact
+		background-color: black
+		color: gray
