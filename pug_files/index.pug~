@@ -16,13 +16,14 @@ body(onscroll='parallax(event)')
 			h1 At the time being
 				|  the website is still under construction
 		.skills
+			h1 My skills
 			.skill
 			.skill
 			.skill
 			.skill
 			.skill
 		.projects
-			
+			h1 My projects
 		.contact
 			ul
 				li Email: 
