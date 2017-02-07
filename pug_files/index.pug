@@ -1,15 +1,22 @@
 doctype html
 head
+	meta(charset='utf-8')
 	title Gabriel Dornianu
 	link(rel='icon', href='images/icon.png')
 	link(rel='stylesheet' href='css_files/general_styling.css')
-body(class='body')
-	.introduction
-		h1 Greetings
-			br
-			| I am Gabriel
-			br
-			| And i am a front end developer
-	.skills
-	.projects
-		
+body(onscroll='parallax(event)')
+	img(src='images/page_background.jpg', class='page_background')
+	.content
+		.introduction
+			h1 Greetings
+				br
+				| I am Gabriel
+				br
+				| And i am a front end developer
+			h1 At the time being
+				|  the website is still under construction
+		.skills
+		.projects
+		.contact
+	script(src='javascript_files/basic_functionality.js', typte='text/javascript')
+	
