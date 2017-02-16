@@ -6,10 +6,79 @@ a
 	color: white
 	text-decoration: none
 
-.introduction
-	text-align: center
-	.soon
-		display: inline-block
-.projects
+.head
+	color: #191007
+	width: 100%
+	background-image: url('../images/banner.png')
 
-.links
+.description
+	padding: 10% 0%
+	text-align: center
+
+.projects
+	text-align: center
+	background-color: #191007
+	width: 100%
+	color: #24c6cd
+	padding: 5% 0%
+
+	.project
+		padding: 5% 0% 0% 0%
+		text-align: center
+		> a
+			display: inline-block
+			> img
+				display: block
+				border-radius: 100%
+				background-color: #27c19c
+				padding: 10px
+		.text
+			max-width: 500px
+			display: inline-block
+			vertical-align: top
+			text-align: justify
+			padding: 0px 50px
+.contact
+	text-align: center
+	background-color: orange
+	> p
+		display: inline-block
+		padding: 0% 1%
+		&:hover
+			text-decoration: underline
+@media screen and (max-width: 1920px)
+	.description, .projects
+		 font-size: 1rem
+	.project
+		.text
+		font-size: 1em
+@media screen and (max-width: 1366px)
+	.description, .projects
+		font-size: 0.8rem
+	.project
+		.text
+		font-size: 1.3em
+@media screen and (max-width: 720px)
+	.description, .projects
+		font-size: 0.5rem
+	.project
+		.text
+		font-size: 1.6em
+		> a
+			margin-bottom: 5%
+@media screen and (max-width: 400px)
+	.description, .projects
+		font-size: 0.4rem
+	.project
+		.text
+		font-size: 1.8em
+		> a
+			margin-bottom: 5%
+@media screen and (max-width: 360px)
+	.description, .projects
+		font-size: 0.3rem
+	.project
+		.text
+		font-size: 2.1em
+		> a
+			margin-bottom: 5%

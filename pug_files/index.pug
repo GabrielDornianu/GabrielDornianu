@@ -4,11 +4,42 @@ head
 	title Gabriel Dornianu
 	link(rel='icon', href='images/icon.png')
 	link(rel='stylesheet' href='css_files/general_styling.css')
-body()
-	.introduction
-		h1(class='soon') Coming soon
-		h3
-
+body
+	.head
+		.description
+			h1 Hi
+				| I am Gabriel and i am a web developer
+			h1 Currently i am still working on a bunch of websites including this one
+			h1 If you want to see the projects i am currently developing, have a look
 	.projects
-	.links
+		h1(class='projects_title') There are the projects i am currently working on
+		.project
+			a(href='https://github.com/GabrielDornianu/silly_projects/tree/master/tic_tac_toe')
+				img(src='images/tictactoe.jpg', height='200', width='200')
+			.text
+				h3 My own implementation of a tic tac toe game
+				p This game uses only AI as an opponent, so it is harder to code
+				p I am also implementing some setting such as restart and change difficulty
+				p I am using the strict mode for developing this game
+				p Also , i made this code as least DRY as possible
+		.project
+			a(href='https://github.com/GabrielDornianu/Simple_Web_Projects')
+				img(src='images/phpmysql.png', height='200', width='200')
+			.text
+				h3 Some scripting challanges
+				p A registration system in php and mysql, with serverside validation
+				p A login system that passes the user data to a session
+				p An online chat system
+				p A mail system
+		.project
+			a(href='https://github.com/GabrielDornianu/Gabriel_Dornianu')
+				img(src='images/portofolio.jpg', height='200', width='200')
+			.text
+				h3 This simple and minimalistic portofolio website
+				p I keep it updated with my contact data
+				p Also i will share with you some interesting links with things that i build or i find
+	.contact
+		p Phone: +4 0755 653 633
+		p Mail:
+			a(href='mailto:gabrieldornianu@yahoo.com') gabrieldornianu@yahoo.com
 	script(src='javascript_files/basic_functionality.js', typte='text/javascript')
